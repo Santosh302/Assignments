@@ -1,0 +1,39 @@
+.card {
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 5px;
+    width: 292px;
+    height: 71px; /* Change height to auto */
+  }
+  
+  .content-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px; 
+    margin-top: 5px; 
+  }
+ 
+  .logo {
+    width: 12px;
+    height: 13.33px;
+    margin-right: 5px; 
+  }
+  
+  .content {
+    font-size: 12px;
+    
+  }
+  
+  .button.active {
+    background-color: #27343C;
+    color: white;
+    opacity: 1;
+  }
+  
